@@ -54,7 +54,7 @@ function counter(){
      load = load + 1;
      if(load>99){
         clearInterval(int)
-        console.log(load)
+        // console.log(load)
      }
      loadingtext.innerHTML = load
 }, 50)
@@ -118,7 +118,6 @@ document.querySelector(".imgs").addEventListener("mouseenter",function(){
             opacity: 1
         })
     })
-    console.log("heyy")
 })
 
 document.querySelector(".imgs").addEventListener("mouseleave",function(){    
@@ -206,8 +205,6 @@ document.querySelector("#page").addEventListener("mousemove",function(dets){
         top : `${dets.y}px`,
         left : `${dets.x}px`
     })
-    // document.querySelector("#mousemove").style.
-    // document.querySelector("#mousemove").style.
 })
 
 document.querySelector("#page-select>h1").addEventListener("mouseenter",function(){

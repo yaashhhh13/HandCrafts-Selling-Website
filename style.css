@@ -78,7 +78,6 @@ html,body{
 #ll1 h1{
     position: relative;
 
-
     animation-name: ll1;
     animation-duration: .3s;
     animation-timing-function: linear;
@@ -873,13 +872,17 @@ html,body{
     position: relative;
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* background-color: aquamarine; */
 }
 
 #sell-left form{
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 5px;
+    width: 80%;
     /* margin-left: 30px; */
 }
 
@@ -889,8 +892,8 @@ html,body{
     background-color: white;
     border: none;
     outline: none;
-    margin-top: 30px;
-    width: 80%;
+    margin-top: 15px;
+    width: 100%;
     text-transform: capitalize;
     border-radius: 10px;
 }
@@ -907,6 +910,7 @@ html,body{
     align-self: center;
     margin-right: 60px;
     color: white;
+    text-align: center;
 }
 
 #sell-right{
